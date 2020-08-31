@@ -1,0 +1,32 @@
+body, html{
+    padding:0;
+    margin:0;
+    position:relative;
+    height:100%
+}
+.header, .footer{
+    width:100%;
+    background:#ccc;
+    padding:10px;
+    box-sizing:border-box;
+}
+.content{
+    background:#eee;
+    width:100%;
+    padding:10px;
+    height:100%;
+    box-sizing:border-box;
+    padding:10px;
+}
+.nav{
+    width:25%;
+    float:left;
+    background:#bbb;
+    height:100%;
+}
+.game{
+    width:75%;
+    float:right;
+    background:#aaa;
+    height:100%;
+}
